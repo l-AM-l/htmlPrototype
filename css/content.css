@@ -1,0 +1,117 @@
+.MiNavbar{
+  background-color: #3C486B;
+}
+
+.cuerpo{
+  background-color: #f0f0f0;
+  margin-top: 3rem;
+}
+
+.container{
+  background-color: #f0f0f0;
+  margin: 6rem;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weekly {
+  flex: 1; /* Ocupa el espacio disponible */
+ 
+  padding: 10px;
+ 
+}
+
+
+.infoDump {
+  flex: 0 0 30%; /* Anchura fija del 30% sin crecimiento ni reducción */
+  margin-left: 5vh;
+  padding: 10px;
+}
+.img-fluid{
+  width: 300px;
+  padding-bottom: 8rem;
+}
+
+
+.video-container{
+  display: flex; /* Utilizamos flexbox para colocar elementos en línea */
+  align-items: center; /* Alineamos verticalmente al centro */
+  justify-content: space-between;
+  margin-left: 15vh;
+  margin-right: 30vh;
+ 
+ 
+}
+
+
+.quizz-container{
+  display: inline-block;
+  text-align: center;
+  margin-left: 15vh;
+ 
+ 
+}
+
+
+
+
+h1{
+  padding: 10vh;
+  color: #3C486B;
+}
+
+p{
+  border: 0;
+  padding: 10px;
+  }
+  
+  
+  h2{
+    padding: 5vh;
+    width: fit-content;
+  }
+iframe{
+  margin-right: 20vh;
+}
+
+
+button{
+  text-align: center;
+  border-radius: 5px;
+ 
+}
+
+#footer {
+  padding: 4em 0 2em 0;
+  background-color: #3C486B;
+  text-align: center;
+  color:#F0F0F0;
+}
+#footer .inner {
+  width: 50%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 980px) {
+  #footer .inner {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #footer .inner {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 736px) {
+  #footer {
+    padding: 3em 0 1em 0;
+  }
+}
